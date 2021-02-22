@@ -6,6 +6,7 @@
 body {
   margin: 0;
   padding: 20px;
+
 }
 
 .header {
@@ -30,56 +31,87 @@ header nav a {
   text-decoration: none;
 }
 
-#aboutme {
-  padding: 20px;
+.padding{
+  padding: 30px;
+}
+
+#aboutme{
+    display: flex;
+    flex: column;
+}
+
+.aboutme p {
+    padding: 20px;
+}
+
+h2{
+  min-width: 9vw;
 }
 
 #work {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   margin-top: 2%;
+  flex-direction: row;
+  position:relative;
 }
 
 .card {
-  flex: 1 0 0;
-  padding: 10px;
+  flex: 1 1 0;
+  padding: 5px;
   text-align: center;
   border-style: solid;
   border-width: 1px;
   width: 100%;
   border-radius: 10px;
+ 
 }
+
+
 
 .card header {
   padding: 20px;
   background: #1d3d5c;
   color: #fff;
   border-radius: 10px;
+  margin: 5px;
 }
 
 .card img {
-  min-width: 400px;
-  max-height: 300px;
+  min-width: 150px;
+  max-width: 200px;
+  max-height: 150px;
 }
 
+.vl{
+  border-left: 4px solid darkblue;
+  padding-left: 20px;
+}
+
+#resume{
+  display: flex;
+}
+#contactme{
+  display: flex;
+  flex:column;
+
+}
+
+footer{
+  background-color:lightblue;
+  padding: 30px;
+  text-align: center;
+}
 /* Tablets  */
-/* @media screen and (max-width: 992px) {
+@media screen and (max-width: 992px) {
     header {
-      background: #772014;
+      width: 100%;
     }
   }
-   */
+  
 /* Large smartphones   */
-/* @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     nav {
-      background-color: #bb8588;
+      width:50%;
     }
-  }  */
-
-/* Small smartphones  */
-/* @media screen and (max-width: 576px) {
-    .sample-img {
-      background-color: #8ac4ff;
-    }
-  }  */
+  } 
