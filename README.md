@@ -1,5 +1,5 @@
 # Scott_Ray_Portfolio
-bulding a portfolio from ground up to show case the skills and ability of a up and comming web deveploer
+bulding a portfolio from ground up to show case the skills and ability of a up and comming web deveploer useing just html and css code
 
 ## User Story
 
