@@ -1,21 +1,35 @@
 * {
   box-sizing: border-box;
+}
+
+:root{
+  --light: #fff;
   
 }
 
 body {
   margin: 0;
   padding: 20px;
-
+  /* background: hotpink; */
 }
 
 .header {
-  background-color: lightblue;
+  color: var(--light);
   margin: 0;
+  background-image: url("https://images.unsplash.com/photo-1613820070607-ef1d3ccc07f9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80");
+}
+
+#myself{
+  width: 150px;
+  height: 200px;
+
 }
 
 .water {
-  width: 100%;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 99%;
   height: 150px;
 }
 
@@ -24,11 +38,13 @@ header nav {
   justify-content: flex-end;
   flex-wrap: wrap;
   padding-right: 20px;
+  
 }
 
 header nav a {
   padding-right: 10px;
   text-decoration: none;
+  color: var(--light);
 }
 
 .padding{
@@ -37,44 +53,58 @@ header nav a {
 
 #aboutme{
     display: flex;
-    flex: column;
-}
-
-.aboutme p {
-    padding: 20px;
 }
 
 h2{
-  min-width: 9vw;
+  min-width: 10vw;
 }
 
 #work {
   display: flex;
-  flex-wrap: wrap;
   margin-top: 2%;
   flex-direction: row;
-  position:relative;
+}
+
+.first{
+  width: 1000px;
+}
+
+.test{
+  width: 575px;
 }
 
 .card {
-  flex: 1 1 0;
   padding: 5px;
   text-align: center;
   border-style: solid;
   border-width: 1px;
-  width: 100%;
   border-radius: 10px;
- 
 }
 
+.wrapper{
+display:flex;
+flex-direction: column;
+width: 35%;
+}
 
+.subwrapper{
+  display:flex;
+  flex-direction: row;
+  width: 30vw;
+}
 
+.hater{
+  display: flex;
+  flex-direction: row;
+  width: 30vw;
+}
 .card header {
   padding: 20px;
   background: #1d3d5c;
   color: #fff;
   border-radius: 10px;
   margin: 5px;
+  
 }
 
 .card img {
@@ -90,11 +120,13 @@ h2{
 
 #resume{
   display: flex;
+  margin-top: 2%;
 }
+
 #contactme{
   display: flex;
-  flex:column;
-
+  flex-direction:row;
+  margin-top: 2%;
 }
 
 footer{
@@ -102,16 +134,19 @@ footer{
   padding: 30px;
   text-align: center;
 }
+
 /* Tablets  */
 @media screen and (max-width: 992px) {
-    header {
-      width: 100%;
+    header, .card, nav {
+    flex-direction: column;
+      background-color: green;
     }
   }
   
 /* Large smartphones   */
 @media screen and (max-width: 768px) {
-    nav {
-      width:50%;
+    .wrapper, nav{
+      width:100%;
+      flex-direction: column;
     }
   } 
