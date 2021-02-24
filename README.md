@@ -34,3 +34,6 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ```
 https://scottlray.github.io/Scott_Ray_Portfolio/
 ```
+
+## screenshot
+![screenshot](assest\images\screenshot.png)
