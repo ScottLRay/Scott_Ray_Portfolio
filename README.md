@@ -1,5 +1,8 @@
 # Scott_Ray_Portfolio
-bulding a portfolio from ground up to show case the skills and ability of a up and comming web deveploer useing just html and css code
+bulding a portfolio from ground up to show case the skills and ability of a up and comming web deveploer.
+
+## Used Tech
+Html & Css
 
 ## User Story
 
@@ -36,4 +39,4 @@ https://scottlray.github.io/Scott_Ray_Portfolio/
 ```
 
 ## screenshot
-![screenshot](assest\images\screenshot.png)
+![screenshot](https://github.com/ScottLRay/Scott_Ray_Portfolio/blob/main/assest/images/screenshot.png)
