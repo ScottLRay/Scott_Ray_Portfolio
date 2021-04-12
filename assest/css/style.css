@@ -127,7 +127,7 @@ a:link {
 }
 
 footer{
-  background-color:lightblue;
+  background-color: var(--cardheader);
   padding: 30px;
   text-align: center;
 }
